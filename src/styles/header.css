@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+.headers {
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+    color: #262626;
+    font-family: 'source-sans-pro', 'Source Sans Pro', 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 70px;
+    text-align: left;
+    width: 100%;
+    z-index: 10003;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headers li {
+    padding: 8px;
+}
+
+.h-middle {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    font-size: 15px;
+    margin: 0;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.h-right {
+    padding-right: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.c-deposit-button{
+    display: inline-block;
+    padding: 9px 12px;
+    border: 1px solid #e00034;
+    color: #e00034;
+    background-color: white;
+    border-radius: 22px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s ease;
+    font-weight: 400;
+    text-decoration: none;
+    outline: none;
+    margin: 0 15px;
+}
+.c-deposit-button svg {
+    margin-right: 5px;
+    vertical-align: bottom;
+    fill: #e00034;
+    transition: all 0.2s ease;
+}
+.c-header-module-opener-content {
+    height: 40px;
+    padding: 0 12px;
+}
+.c-header-module-opener-text {
+    color: #262626;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.fi-bulb:before {
+    font-family: font-icon !important;
+    content: "\eb08";
+}
